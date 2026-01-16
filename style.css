@@ -1,0 +1,19 @@
+table{
+    width: 400px;
+    text-align: center;
+    
+}
+table,th,tr,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: o.5rem 1rem;
+}
+th{
+    background-color: aqua;
+}
+tr:nth-child(odd){
+    background-color:lavender;
+}
+body{
+    background-color:beige;
+}
